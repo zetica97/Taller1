@@ -1,17 +1,26 @@
-#num = int(input("ingresa el numero que quieres multiplicar"))
+num = int(input("ingresa el numero que quieres multiplicar"))
 minimo = 1
 maximo = 10
 i = 1
 
-for i in range(10):
-    print("TABLA DE MULTIPLICAR DEL NUMERO:",{i})
 
 
-    while minimo <= maximo:
+print("tabla del",{num})
+while minimo <= maximo:
 
-        resultado = minimo * i
-        print("{} x {} = {}".format(i, minimo, resultado))
+
+    
+
+    resultado = minimo * i
+    print("{} x {} = {}".format(num, minimo, resultado))
         
-        minimo = minimo + 1
+            
+
+
+        
+        
+    minimo = minimo + 1
+
+
     
 
