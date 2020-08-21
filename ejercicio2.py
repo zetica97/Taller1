@@ -1,0 +1,1 @@
+print([num for num in range(1,120) if num%2==0])
